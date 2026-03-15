@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bus Tracking System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🚌 Bus Tracking System</h1>
+
+<h3>Route</h3>
+<p>Mettur → Mecheri → Omalur → Salem</p>
+
+<h2>Available Buses</h2>
+
+<button onclick="trackBus('KS')">KS Bus</button>
+<button onclick="trackBus('SNB')">SNB Bus</button>
+<button onclick="trackBus('RVT')">RVT Bus</button>
+<button onclick="trackBus('SVT')">SVT Bus</button>
+
+<br><br>
+
+<img id="busImage" width="300">
+
+<br><br>
+
+<button id="trackBtn" onclick="openMap()" style="display:none;">
+Track Bus
+</button>
+
+<br><br>
+
+<button onclick="logout()">Logout</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

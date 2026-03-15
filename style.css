@@ -1,0 +1,55 @@
+body{
+font-family: Arial;
+text-align:center;
+background:#f2f2f2;
+}
+
+#loginSection{
+margin-top:120px;
+}
+
+input{
+padding:10px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:blue;
+color:white;
+border:none;
+margin:10px;
+cursor:pointer;
+}
+
+img{
+margin-top:20px;
+width:350px;
+border-radius:10px;
+}
+
+#location, #destination, #username, #password{
+    border-radius: 25px;
+    width:300px;
+}
+#loginSection{
+    background: rgb(206, 206, 186);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    margin-top: 10px;
+}
+button:hover{
+    background: darkblue;
+    cursor: pointer;
+}
+
+button {
+    transition: background 0.3s ease;
+    border-radius: 25px;
+}
+h1{
+    color: #333;
+    margin-top: 125px;
+}
