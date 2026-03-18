@@ -12,9 +12,24 @@ else{
 alert("Invalid Login");
 }
 
+
 }
 
+function displayRoute(){
+
+const params = new URLSearchParams(window.location.search);
+const location = params.get("location");
+const destination = params.get("destination");
+
+document.getElementById("result").innerHTML = location + " to " + destination;
+
+}
+
+window.addEventListener("load", displayRoute);
+
 function trackBus(busName){
+
+
 
 selectedBus=busName;
 
@@ -52,3 +67,4 @@ function logout(){
 window.location="login.html";
 
 }
+
